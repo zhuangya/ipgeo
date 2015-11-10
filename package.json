@@ -1,0 +1,33 @@
+{
+  "name": "ipgeo",
+  "version": "0.0.1",
+  "description": "nodejs ip => geo helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuangya/ipgeo.git"
+  },
+  "keywords": [
+    "ip",
+    "ipgeo"
+  ],
+  "author": "Ya Zhuang <zhuangya@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhuangya/ipgeo/issues"
+  },
+  "homepage": "https://github.com/zhuangya/ipgeo#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "ip": "^1.0.2",
+    "ip-regex": "^1.0.3",
+    "superagent": "^1.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.3"
+  }
+}
